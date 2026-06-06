@@ -32,4 +32,38 @@
 //         return s;
 //     }
 // };
-/
+
+
+// class Solution {
+// public:
+//     string removeDuplicates(string s, int k) {
+
+//         vector<pair<char,int>> ans;
+
+//         for(int i = 0; i < s.size(); i++) {
+
+//             if(!ans.empty() && ans.back().first == s[i]) {
+
+//                 ans.back().second++;
+
+//                 if(ans.back().second == k) {
+
+//                     ans.pop_back();
+//                 }
+//             }
+//             else {
+
+//                 ans.push_back({s[i], 1});
+//             }
+//         }
+
+//         string result = "";
+
+//         for(int i = 0; i < ans.size(); i++) {
+
+//             result += string(ans[i].second, ans[i].first);
+//         }
+
+//         return result;
+//     }
+// };

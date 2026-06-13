@@ -1,3 +1,4 @@
+//Method-1
 // class Solution {
 // public:
 //     vector<int> plusOne(vector<int>& digits) {

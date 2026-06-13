@@ -1,4 +1,3 @@
-
 // Method-1
 
 // class Solution {

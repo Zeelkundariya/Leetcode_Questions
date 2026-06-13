@@ -9,10 +9,10 @@
 //                 break;
 //             }
 //         }
-//         if(index == -1) {
-//             return word;
+//         if(index != -1) {
+//              reverse(word.begin(),word.begin() +index +1);
 //         }
-//         reverse(word.begin(), word.begin() + index + 1);
+       
 //         return word;
 //     }
 // };

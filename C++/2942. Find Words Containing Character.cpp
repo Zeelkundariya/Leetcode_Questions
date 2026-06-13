@@ -6,7 +6,7 @@
 
 //         for(int i = 0; i < words.size(); i++) {
 
-//             if(words[i].find(x) != string::npos) {
+//             if(words[i].find(x) != -1) {
 //                 ans.push_back(i);
 //             }
 //         }

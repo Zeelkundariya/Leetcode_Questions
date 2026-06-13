@@ -12,11 +12,9 @@
 //             if(row == ans.size()) {
 //                 ans.push_back({});
 //             }
-
 //             ans[row].push_back(num);
 //             mp[num]++;
 //         }
-
 //         return ans;
 //     }
 // };

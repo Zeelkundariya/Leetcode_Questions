@@ -1,22 +1,15 @@
 // class Solution {
 // public:
-//     int score(int n) {
+//     int digitFrequencyScore(int n) {
 
-//         int freq[10] = {0};
+//         int score = 0;
 
 //         while(n > 0) {
 
-//             int digit = n % 10;
-//             freq[digit]++;
+//             score += n % 10;
 //             n /= 10;
 //         }
-//         int ans = 0;
 
-//         for(int i = 0; i <= 9; i++) {
-
-//             ans += i * freq[i];
-//         }
-
-//         return ans;
+//         return score;
 //     }
 // };

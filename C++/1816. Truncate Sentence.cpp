@@ -23,3 +23,21 @@
 
 
 //Method-2
+
+// class Solution {
+// public:
+//     string truncateSentence(string s, int k) {
+//         string ans = "";
+//         int words = 0;
+
+//         for (char ch : s) {
+//             if (ch == ' ') {
+//                 words++;
+//                 if (words == k) break;
+//             }
+//             ans += ch;
+//         }
+
+//         return ans;
+//     }
+// };

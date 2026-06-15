@@ -1,3 +1,5 @@
+//Method-1
+
 // class Solution {
 // public:
 //     bool checkIfPangram(string sentence) {

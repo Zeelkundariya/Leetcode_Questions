@@ -1,4 +1,5 @@
 
+//method-1
 // class Solution {
 // public:
 //     vector<int> leftRightDifference(vector<int>& nums) {

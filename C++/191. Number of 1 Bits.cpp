@@ -1,3 +1,5 @@
+// method-1
+
 // class Solution {
 // public:
 //     int hammingWeight(int n) {

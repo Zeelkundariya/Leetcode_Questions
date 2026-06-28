@@ -10,7 +10,7 @@
 
 //         while(x != 0) {
 //             int digit = x % 10;
-//             if(rev > int_max / 10 && rev < int_min / 10) {
+//             if(rev > int_max / 10 || rev < int_min / 10) {
 //                 return 0;
 //             }
 //             rev = rev * 10 + digit;

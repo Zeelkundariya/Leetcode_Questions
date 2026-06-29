@@ -1,3 +1,5 @@
+//Method-1
+
 // class Solution {
 // public:
 //     vector<int> sortArrayByParityII(vector<int>& nums) {

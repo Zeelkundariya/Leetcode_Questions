@@ -10,3 +10,6 @@
 //         return false;
 //     }
 // };
+
+// Time  0(n)
+//Space 0(1)

@@ -7,3 +7,6 @@
 //         return target == arr;
 //     }
 // };
+
+// Time O(n log n)
+//Space O(1)

@@ -13,3 +13,6 @@
 //         return i == s.size();
 //     }
 // };
+
+//time O(n)
+// space 0(1)

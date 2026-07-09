@@ -15,4 +15,4 @@
 // };
 
 //time O(n)
-// space 0(1)
+// space 0(12200. Find All K-Distant Indices in an Array)

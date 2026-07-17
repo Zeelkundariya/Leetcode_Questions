@@ -27,3 +27,6 @@
 //         return ans;
 //     }
 // };
+
+//time 0(n)
+//space o(1)

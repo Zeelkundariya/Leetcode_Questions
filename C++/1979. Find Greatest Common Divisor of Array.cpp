@@ -6,7 +6,7 @@
     //             b =a%b;
     //             a = temp;
     //         }
-    //         return 
+    //         return a;
     //     }
     //     int findGCD(vector<int>& nums){
     //         int min = *min_element(nums.begin(), nums.end());

@@ -17,3 +17,5 @@
 //         return ans;
 //     }
 // };
+
+//time o(n2)

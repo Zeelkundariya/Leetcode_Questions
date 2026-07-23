@@ -17,3 +17,5 @@
 //         return count;
 //     }
 // };
+
+//time 0(n2)

@@ -14,6 +14,5 @@
 //                 result += s[i];
 //             }
 //         }
-//         return result;
 //     }
 // };

@@ -16,3 +16,5 @@
 //         return increasing || decreasing;
 //     }
 // };
+
+//time 0(n)

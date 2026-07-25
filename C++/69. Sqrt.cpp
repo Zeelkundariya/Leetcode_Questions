@@ -5,7 +5,7 @@
 //             if(x == 0 ||  x == 1  ) return x;
 
 //             int left = 1, right=x;
-//             int as=ns = 0;
+//             int ans = 0;
 
 //             while(left <= right){
 
@@ -26,3 +26,5 @@
 //             }
 //             return ans;
 // };
+
+//time 0(log x)

@@ -57,3 +57,37 @@ int main() {
     return 0;
 }
 
+
+
+// //Q-2 cgiven an array (arr[-2,1,-3,4,7,2,-2]) find subarray whose length must be k = 2 but total sum max
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int arr[] = {-2, 1, -3, 4, 7, 2, -2};
+    int n=7;
+    int k=2;
+
+    int sum = 0;
+
+    for(int i=0; i<k;i++) {
+        sum += arr[i];
+    }
+    int maxSum = sum;
+    
+    for (int i=k;i<n;i++){
+        sum=sum-arr[i-k]+arr[i];
+        if(sum>maxSum) {
+            maxSum = sum;
+        }
+    }
+    cout <<"Maximum Sum"<<maxSum;
+
+    return 0;
+}
+
+
+
+

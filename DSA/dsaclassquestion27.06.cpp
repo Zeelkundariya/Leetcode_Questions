@@ -91,3 +91,8 @@ int main(){
 
 
 
+
+
+//Q-1
+// Array vs linked list
+

@@ -14,4 +14,6 @@
 //         return ans;
 //     }
 // };
+
 //time 0(n2)
+//space 0(1)

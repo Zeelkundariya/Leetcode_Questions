@@ -1,10 +1,12 @@
-class Solution {
-public:
-    bool divisorGame(int n) {
+// class Solution {
+// public:
+//     bool divisorGame(int n) {
 
-        if(n % 2 == 0) {
-            return true;
-        }
-        return false;
-    }
-};
+//         if(n % 2 == 0) {
+//             return true;
+//         }
+//         return false;
+//     }
+// };
+
+//time 0(1)

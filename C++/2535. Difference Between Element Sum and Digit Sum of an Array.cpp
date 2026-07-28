@@ -18,3 +18,4 @@
 // };
 
 //time O(n × d), where d is the number of digits.
+//space 0(1)

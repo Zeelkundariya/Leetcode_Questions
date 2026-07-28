@@ -31,3 +31,5 @@
 //         return true;
 //     }
 // };
+
+//time 0(n)

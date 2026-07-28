@@ -16,3 +16,5 @@
 //         return abs(elementSum - digitSum);
 //     }
 // };
+
+//time O(n × d), 

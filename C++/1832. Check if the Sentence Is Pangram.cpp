@@ -19,15 +19,15 @@
 //method-2
 
 
-// class Solution {
-// public:
-//     bool checkIfPangram(string sentence) {
+class Solution {
+public:
+    bool checkIfPangram(string sentence) {
 
-//         for(char ch = 'a'; ch <= 'z'; ch++) {
-//             if(sentence.find(ch) == -1) {
-//                 return false;
-//             }
-//         }
-//         return true;
-//     }
-// };
+        for(char ch = 'a'; ch <= 'z'; ch++) {
+            if(sentence.find(ch) == -1) {
+                return false;
+            }
+        }
+        return true;
+    }
+};

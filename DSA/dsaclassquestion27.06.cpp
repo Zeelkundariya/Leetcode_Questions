@@ -76,7 +76,7 @@ int main(){
         sum += arr[i];
     }
     int maxSum = sum;
-    
+
     for (int i=k;i<n;i++){
         sum=sum-arr[i-k]+arr[i];
         if(sum>maxSum) {

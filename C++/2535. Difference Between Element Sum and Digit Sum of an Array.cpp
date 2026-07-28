@@ -17,4 +17,4 @@
 //     }
 // };
 
-//time O(n × d), 
+//time O(n × d), where d is the number of digits.

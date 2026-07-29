@@ -38,4 +38,4 @@
 //     }
 // };
 
-//time
+//time O(log(min(m,n)))

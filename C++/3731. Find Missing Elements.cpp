@@ -17,3 +17,4 @@
 // };
 
 //time 0(o log n)
+//space 0(1)

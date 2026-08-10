@@ -43,3 +43,5 @@
 //         return newHead;
 //     }
 // };
+
+//time 0(n)

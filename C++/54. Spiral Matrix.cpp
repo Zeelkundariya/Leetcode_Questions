@@ -1,45 +1,45 @@
-class Solution {
-public:
-    vector<int> spiralOrder(vector<vector<int>>& matrix) {
+// class Solution {
+// public:
+//     vector<int> spiralOrder(vector<vector<int>>& matrix) {
 
-        vector<int> ans;
+//         vector<int> ans;
 
-        int top = 0;
-        int bottom = matrix.size() - 1;
-        int left = 0;
-        int right = matrix[0].size() - 1;
+//         int top = 0;
+//         int bottom = matrix.size() - 1;
+//         int left = 0;
+//         int right = matrix[0].size() - 1;
 
-        while(top <= bottom && left <= right) {
+//         while(top <= bottom && left <= right) {
 
-            // 1. Left → Right
-            for(int i = left; i <= right; i++) {
-                ans.push_back(matrix[top][i]);
-            }
-            top++;
+//             // 1. Left → Right
+//             for(int i = left; i <= right; i++) {
+//                 ans.push_back(matrix[top][i]);
+//             }
+//             top++;
 
-            // 2. Top → Bottom
-            for(int i = top; i <= bottom; i++) {
-                ans.push_back(matrix[i][right]);
-            }
-            right--;
+//             // 2. Top → Bottom
+//             for(int i = top; i <= bottom; i++) {
+//                 ans.push_back(matrix[i][right]);
+//             }
+//             right--;
 
-            // 3. Right → Left
-            if(top <= bottom) {
-                for(int i = right; i >= left; i--) {
-                    ans.push_back(matrix[bottom][i]);
-                }
-                bottom--;
-            }
+//             // 3. Right → Left
+//             if(top <= bottom) {
+//                 for(int i = right; i >= left; i--) {
+//                     ans.push_back(matrix[bottom][i]);
+//                 }
+//                 bottom--;
+//             }
 
-            // 4. Bottom → Top
-            if(left <= right) {
-                for(int i = bottom; i >= top; i--) {
-                    ans.push_back(matrix[i][left]);
-                }
-                left++;
-            }
-        }
+//             // 4. Bottom → Top
+//             if(left <= right) {
+//                 for(int i = bottom; i >= top; i--) {
+//                     ans.push_back(matrix[i][left]);
+//                 }
+//                 left++;
+//             }
+//         }
 
-        return ans;
-    }
-};
+//         return ans;
+//     }
+// };

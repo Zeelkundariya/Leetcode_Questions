@@ -24,6 +24,7 @@ int main(){
     b1->value = 10;
     Box* b2 = new Box();
     b1->address = b2;
-    cout << b1->address << endl;
+
+    
     return 0;
 }

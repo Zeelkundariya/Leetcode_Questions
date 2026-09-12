@@ -8,9 +8,9 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-class Solution {
-public:
-    ListNode* middleNode(ListNode* head) {
+// class Solution {
+// public:
+//     ListNode* middleNode(ListNode* head) {
         // Solution 1
         //  int count = 0;
         //  ListNode* i = head;

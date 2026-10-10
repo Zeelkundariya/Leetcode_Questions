@@ -1,7 +1,8 @@
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
-int arr[7] = {};
+int arr[8] = {};
 int a = 0;
 
 void push(int data)
@@ -28,34 +29,29 @@ void display()
     }
 }
 
-void frequency(int target)
+void sortStack()
 {
-    int count = 0;
-
-    for (int i = 0; i < a; i++)
-    {
-        if (arr[i] == target)
-        {
-            count++;
-        }
-    }
-
-    cout << "frequency:" << count << endl;
+   sort(arr, arr+a);
 }
 
 int main()
 {
     push(1);
-    push(2);
     push(3);
-    push(2);
+    push(0);
     push(4);
     push(2);
-    push(2);
+    push(0);
+    push(0);
+    push(7);
 
+    cout << "before sorting:" << endl;
     display();
 
-   frequency(2);
+    sortStack();
+
+    cout << "after sorting:" << endl;
+    display();
 
     return 0;
 }

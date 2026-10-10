@@ -2,7 +2,7 @@
 #include <algorithm>
 using namespace std;
 
-int arr[8] = {};
+int arr[5] = {};
 int a = 0;
 
 void push(int data)
@@ -31,19 +31,16 @@ void display()
 
 void sortStack()
 {
-   sort(arr, arr+a);
+    sort(arr, arr + a);
 }
 
 int main()
 {
+    push(5);
+    push(2);
+    push(8);
     push(1);
     push(3);
-    push(0);
-    push(4);
-    push(2);
-    push(0);
-    push(0);
-    push(7);
 
     cout << "before sorting:" << endl;
     display();
